@@ -37,6 +37,7 @@ stages{
         steps{
             sh "mvn deploy"
         }
+        steps{}
 
         
     }
