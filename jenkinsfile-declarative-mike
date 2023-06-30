@@ -36,10 +36,7 @@ stages{
     stage('upload to nexus'){
         steps{
             sh "mvn deploy"
-        }
-        steps{
-            sh "to be finished"
-        }
+        
 
         
     }
